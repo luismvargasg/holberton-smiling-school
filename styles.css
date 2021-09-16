@@ -245,3 +245,231 @@
 .img-score {
   width: 15px;
 }
+
+/* Section membership */
+.section-membership {
+  padding: 5rem 2rem;
+  background-color: #071629;
+}
+
+.text-free {
+  color: var(--primary);
+}
+
+.smile-on {
+  width: 45px;
+  height: 36px;
+}
+
+.membership-data {
+  width: 221px;
+}
+
+.title-membership {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+}
+
+.text-membership {
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+}
+
+footer {
+  padding: 5rem 2rem 1rem 2rem;
+  background-color: #071629;
+}
+
+.social-link > svg {
+  fill: white;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  font-family: var(--font-family-base);
+  opacity: 0.35;
+}
+
+/* Pricing page */
+
+/* Header section */
+.header-pricing {
+  background-image: url(images/pic_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 16rem 1rem 5rem 1rem;
+}
+
+.text-title-1 {
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+}
+
+.text-title-2 {
+  font-family: "Coiny", cursive;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.text-pricing {
+  font-size: 45px;
+}
+
+/* Grid pricing */
+.icon-check {
+  font-size: 25px;
+  color: #82d24f;
+}
+
+.row-space {
+  padding-top: 50px !important;
+}
+
+.promo-price {
+  font-size: 44px;
+  font-family: "Source Sans Pro";
+}
+
+.price-month {
+  font-size: 12px;
+}
+
+.signal-img {
+  width: 88px;
+  height: 35px;
+}
+
+.border-bottom {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Faq */
+.subtitle-faq {
+  font-size: 60px;
+  font-family: "Source Sans Pro";
+}
+
+.col-text {
+  max-width: 350px;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+}
+
+.title-faq {
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  color: #071629;
+}
+
+.text-faq {
+  color: rgba(5, 17, 32, 0.842);
+  font-size: 14px;
+}
+
+/* Courses page */
+
+/* Header section */
+.header-courses {
+  background-image: url(images/pic_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 7rem 1rem;
+}
+
+.title-courses {
+  font-family: "Coiny", cursive;
+  font-size: 32px;
+}
+
+.smile-courses {
+  color: var(--primary);
+}
+
+/* Section search */
+.section-search {
+  padding: 2rem;
+  background-color: var(--primary);
+}
+
+.title-filter {
+  font-family: "Source Sans Pro";
+  font-size: 0.8rem;
+}
+
+.bg-filter {
+  background-color: #d195ff;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.input-group-text,
+.form-control:focus {
+  background-color: #d195ff;
+  color: #ffffff;
+}
+
+.form-control option {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar-general {
+    position: absolute;
+  }
+
+  .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    top: 0%;
+  }
+
+  .smile-face {
+    margin: 1rem 0;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-top: 2rem;
+  }
+
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+
+  .navbar-toggler {
+    margin-top: 1rem;
+  }
+
+  .navbar-toggler span {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  /* Courses page */
+  /* Header */
+  .title-courses {
+    display: none;
+  }
+}
