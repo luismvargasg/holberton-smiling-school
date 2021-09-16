@@ -1,0 +1,119 @@
+:root {
+  --primary: #c271ff;
+  --font-family-base: "Source Sans Pro", sans-serif;
+}
+
+/* Navbar */
+.navbar-general {
+  border-bottom: none;
+  background-color: transparent !important;
+  font-family: var(--font-family-base);
+  position: absolute;
+}
+
+.navbar-dark .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+
+.smile-face {
+  width: 36px;
+}
+
+.logo-text {
+  width: 114px;
+}
+
+.nav-link {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff !important;
+}
+
+/* Header */
+.header-section {
+  background-image: url(images/pic_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 1rem 5rem 1rem;
+}
+
+.title {
+  font-size: 7rem;
+  margin-bottom: 30px;
+}
+
+.list-inline {
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  margin-top: 10rem;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: var(--font-family-base);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  width: 162px;
+  height: 44px;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+  align-self: center;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--primary);
+  opacity: 0.9;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  opacity: 0.9;
+}
+
+.learn {
+  color: var(--primary);
+  font-family: var(--font-family-base);
+  font-weight: bold;
+}
+
+/* Team */
+.container-team {
+  margin-top: 5rem;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.team-member h4 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.text-small {
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+}
