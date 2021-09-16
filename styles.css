@@ -121,3 +121,127 @@
   font-family: "Source Sans Pro";
   font-size: 16px;
 }
+
+/* Section Quote */
+.section-quote {
+  background-color: var(--primary);
+}
+
+.carousel-item {
+  background-color: transparent;
+}
+
+.carousel-item blockquote {
+  border-left: none;
+  margin: 0;
+}
+
+.icon-prev-white,
+.icon-next-white {
+  font-size: 5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.text-quote,
+.text-small-quote {
+  font-family: "Source Sans Pro";
+}
+
+.text-quote,
+.text-small-quote {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* Tutorial section */
+.section-tutorial {
+  padding: 97px 0;
+}
+
+.subtitle-popular {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  color: #000000;
+}
+
+.text-popular {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #c271ff;
+}
+
+.img-top {
+  max-width: 255px;
+}
+
+.img-play {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+
+.card {
+  width: 242px;
+}
+
+.carousel-item .row {
+  max-width: 1100px;
+}
+
+.card-title-tutorial {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #071629;
+}
+
+.card-text-tutorial {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.501584);
+}
+
+.name-author {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #c271ff;
+}
+
+.time {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: right;
+  color: #c271ff;
+}
+
+.icon-prev-black,
+.icon-next-black {
+  color: #071629;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.img-author {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.img-score {
+  width: 15px;
+}
