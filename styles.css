@@ -28,7 +28,7 @@
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 12px !important;
   line-height: 15px;
   color: #ffffff !important;
 }
@@ -46,13 +46,17 @@
   padding: 15rem 1rem 5rem 1rem;
 }
 
+.display-1 {
+  line-height: 1.1 !important;
+}
+
 .title {
-  font-size: 7rem;
-  margin-bottom: 30px;
+  font-size: 5rem;
+  margin-bottom: 30px !important;
 }
 
 .list-inline {
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
 }
 
 .subtitle {
